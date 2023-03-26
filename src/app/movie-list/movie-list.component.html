@@ -1,0 +1,13 @@
+<mat-card *ngFor="let movie of movieList" class="movie-card">
+  <mat-card-content>
+    <p>Title: <span class="lbl-title">{{movie.title | titlecase}}</span></p>
+    <p>Description: {{movie.description}}</p>
+    <p>Year: {{movie.year}}</p>
+    <p>Director: {{movie.director}}</p>
+
+    <button mat-raised-button color="primary" (click)="onEdit(movie)">Edit</button>
+    <br>
+    <button mat-raised-button color="accent" (click)="onDelete(movie)">Delete</button>
+
+  </mat-card-content>
+</mat-card>

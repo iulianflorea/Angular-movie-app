@@ -1,0 +1,12 @@
+.movie-card {
+  width: 300px;
+  background-color: blue;
+
+}
+
+.lbl-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+
+}
